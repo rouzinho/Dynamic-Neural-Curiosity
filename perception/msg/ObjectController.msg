@@ -1,0 +1,4 @@
+ErrorOG object_model
+geometry_msgs/Pose ee_last_pos
+geometry_msgs/Pose object_fpos
+geometry_msgs/Pose object_lpos

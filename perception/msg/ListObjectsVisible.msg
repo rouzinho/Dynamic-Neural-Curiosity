@@ -1,0 +1,1 @@
+SceneObject[] visible_objects

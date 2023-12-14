@@ -1,0 +1,2 @@
+geometry_msgs/Pose object_pos
+float32 color

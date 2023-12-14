@@ -1,0 +1,4 @@
+<launch>
+    <node name="dmp" pkg="dmp" type="dmp_server" respawn="false" output="screen"/>
+    <node name="proprioception" pkg="motion" type="proprioception_panda.py" />
+</launch>
