@@ -4,8 +4,8 @@ This repository gathers all necessary packages and source code to run the dynami
 
 <div style="display:flex">
      <div style="flex:1;padding-right:0px;">
-       <img src="https://github.com/rouzinho/Dynamic-Neural-Curiosity/assets/10597250/d95a08f5-bc72-45d9-86d8-2d89cb74d05c" width="500"/>
-        <img src="https://github.com/rouzinho/Dynamic-Neural-Curiosity/assets/10597250/bf68ae0f-73ec-431c-b334-4f51edb7af49" width="472"/>
+       <img src="https://github.com/rouzinho/Dynamic-Neural-Curiosity/assets/10597250/d95a08f5-bc72-45d9-86d8-2d89cb74d05c" width="400"/>
+        <img src="https://github.com/rouzinho/Dynamic-Neural-Curiosity/assets/10597250/bf68ae0f-73ec-431c-b334-4f51edb7af49" width="372"/>
      </div>
 </div>
 
