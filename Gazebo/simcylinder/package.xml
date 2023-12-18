@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>simcylinder</name>
+  <version>0.1.0</version>
+  <description>cylinder position</description>
+  <license>BSD</license>
+
+  <author email="quentin.houbre@tuni.fi">Quentin houbre</author>
+
+  <maintainer email="quentin.houbre@tuni.fi">Quentin Houbre</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+
+  <export>
+     <gazebo_ros plugin_path="${prefix}/../../lib" gazebo_media_path="${prefix}" />
+  </export>
+
+</package>
