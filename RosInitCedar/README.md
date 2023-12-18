@@ -26,8 +26,6 @@ I suggest reading about how to create a plugin in Cedar first, it will greatly h
 
 Install ROS : http://wiki.ros.org/ROS/Installation
 
-The code was tested on ROS Kinetic Kame
-
 **Warning**
 
 ROS comes with Qt5 and Cedar officially support only Qt4, so I suggest a basic installation of ROS.

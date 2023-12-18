@@ -23,7 +23,7 @@ The small GIF is a reduced example of the demo file in the video folder. The dem
 
 ## Reproduce the experiment
 
-The experiment is done across 2 computers : one running the panda simulation along with the robot controller with ROS melodic. The other computer run the DNFs and the other packages.
+The experiment is done across 2 computers : one running the panda simulation along with the robot controller with ROS melodic. The other computer run the DNFs and the other packages with ROS Noetic. Make sure the computers can communicate with each other with ROS. 
 
 ### Prerequisites
 
@@ -63,7 +63,44 @@ make
 
 You can now open Cedar and load the ROS node script that with create a node able to publish and subscribe to ROS topic. To do so : Tools -> Manage Plugins -> add..  Then add the libRosInit.so inside the RosInitCedar  plugin. To start the ROS node, go to Scripting ->  C++ scripts -> select InitRos in the list then add and click on the play button. You master ROS node must be running prior to these steps.
 
-For the other plugins, you can import them as described before, except they are not just script to start but elements presents in 
+For the other plugins, you can import them as described before, except they are not just script to start but elements presents in the Utilities tab. Details about the plugins are inside the README of each packages.
+
+The model file is present in the Model folder. You can just open it once all the plgins have been built and loaded into Cedar.
+
+The following package can be copied in to your ROS repository running the panda simulation : 
+
+```
+dmp
+motion
+proprioception
+sim_dim
+```
+and compile your workspace.
+
+Copy the following packages to the ROS workspace on the computer that run Cedar :
+```
+affordance
+data_recorder
+hebbian_dmp
+perception
+sim_dim
+```
+and compile your workspace.
+
+### Start
+
+On the panda computer, start the panda simulator then the robot packages :
+```
+roslaunch panda_simulation simulation.launch
+roslaunch sim_dim robot_modules.launch
+``` 
+
+On the other computer, start Cedar and open the model file. Then start the ROS packages :
+```
+roslaunch sim_dim modules.launch
+```
+Then you can press play in the Cedar simulation.
+
 
 
 

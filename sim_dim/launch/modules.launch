@@ -1,0 +1,8 @@
+<launch>
+    <node name="perception_system" pkg="perception" type="perception_system.py" output="screen"/>
+    <node name="hebbserver" pkg="hebbian_dmp" type="hebb_server.py" output="screen"/>
+    <node name="datacontroller" pkg="sim_dim" type="data_streaming.py" output="screen"/>
+    <node name="skills" pkg="affordances" type="skills_direction.py" output="screen"/>
+    <node name="vizual" pkg="vizualisation" type="data_viz.py" output="screen"/>
+    <rosparam param="load_datas">false</rosparam>
+</launch>

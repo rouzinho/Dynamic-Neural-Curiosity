@@ -67,12 +67,18 @@ You can now go back to the cedar main interface and click on the Utilities tab.
 Drag the MotorHead widget into the architecture panel. Connect the output of a space to rate widget to the input of the MotorHead widget. The outputs of the Neural Field now drive the motor of your choice !
 
 
-## Work in progress
+## Parameters
 
-
-The plugin is more like an artefact binding DFT to the iCub robot.
-Work in progress to use Qt elements to control the settings.
-
+```
+Motor Explore : ROS topic where to send the EE coordinates in case of exploration
+Motor Exploit : ROS topic where to send the EE coordinates in case of exploitation
+Tolerance New Motion : tolerance parameter that will resend the values in case of changes. The higher the tolerance, the more the values would have to changed to be sent. 2 is a steady param for this case.
+fixed Z : fix the EE to this value
+lower space x : lower bound of the robot space on the x component
+upper space x : upper bound of the robot space on the x component
+lower space y : lower bound of the robot space on the y component
+upper space y : upper bound of the robot space on the y component
+```
 
 
 ## Authors
