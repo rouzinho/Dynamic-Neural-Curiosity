@@ -1,0 +1,20 @@
+﻿1
+00:00:00,000 --> 00:00:03,600
+The green button indicates an active node exploration.
+
+2
+00:00:05,100 --> 00:00:14,100
+When a new stimuli ocurs, a gauge indicating the error and learning progress appears.
+
+3
+00:00:22,600 --> 00:00:30,500
+When the exploitation node is active, the robot retrieve the DMP associated to a goal and begins to learn.
+
+4
+00:00:30,600 --> 00:00:37,800
+The arrow represent the motion direction of the object
+
+5
+00:00:37,900 --> 00:00:45,600
+The gauges are updated once the persistence threshold node is active.
+
